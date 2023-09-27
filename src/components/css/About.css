@@ -1,0 +1,105 @@
+.about{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.about h2{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: start;
+}
+.about h2 span{
+    color: #64ffd9;
+}
+.about .content{
+    display: flex;
+    justify-content: space-around;
+}
+.about .content .left{
+    width: 550px;
+    padding-right:10px;
+}
+.about .content .left p{
+    text-align: start;
+    color: #8892b0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about .content .left p span{
+    color: #64ffd9;
+}
+.about .content .right{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.about .content .right img{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.about .content .right::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #64ffd9;
+    left: 15px;
+    top: 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.about .content .right:hover img{
+    transform: translate(-5px, -5px);
+    -webkit-transform: translate(-5px, -5px);
+    -moz-transform: translate(-5px, -5px);
+    -ms-transform: translate(-5px, -5px);
+    -o-transform: translate(-5px, -5px);
+}
+.about .content .right:hover::before{
+    transform: translate(5px,5px);
+    -webkit-transform: translate(5px,5px);
+    -moz-transform: translate(5px,5px);
+    -ms-transform: translate(5px,5px);
+    -o-transform: translate(5px,5px);
+}
+
+
+@media screen  and (max-width:768px){
+    .about .content{
+        flex-direction: column;
+    }
+    .about .content .left{
+        width: 100%;
+    }   
+    .about .content .left p{
+        width: 300px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .content .right{
+        margin: 0 auto;
+    }
+}
