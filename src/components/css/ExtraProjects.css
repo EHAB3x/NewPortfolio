@@ -1,0 +1,82 @@
+.extra_projects{
+    max-width: 1000px;
+    padding: 50px 10px;
+    margin: 0 auto;
+}
+.extra_projects h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.extra_projects .content{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 20px;
+}
+.extra_projects .content .project{
+    background-color: #112240;
+    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+    padding: 2rem 1.75rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+.extra_projects .content .project:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.extra_projects .content .project:hover p{
+    color: #64ffd9;
+}
+.extra_projects .content .project .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.extra_projects .content .project .top .folder{
+    font-size: 40px;
+    color: #64ffd9;
+}
+.extra_projects .content .project .top a{
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    font-size: 20px;
+}
+.extra_projects .content .project .top a:hover{
+    color: #64ffd9;
+}
+.extra_projects .content .project h3{
+    text-align: start;
+    color: #ccd6f6;
+    margin-bottom:10px ;
+}
+.extra_projects .content .project p{
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    font-size: 13px;
+    color: #a8b2d1;
+    text-align: start;
+}
+.extra_projects .content .project ul{
+    display: flex;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.extra_projects .content .project ul li{
+    color: #a8b2d1;
+    margin-right: 15px;
+    font-size: 13px;
+}

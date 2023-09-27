@@ -13,7 +13,7 @@ const Header = () => {
         "Contact",
     ];
   return (
-    <Navbar className='head' onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll>
+    <Navbar className='head' onMenuOpenChange={setIsMenuOpen} >
       <NavbarContent>
         <NavbarBrand>
             <div className="logo">
