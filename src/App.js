@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ExtraProjects from './components/ExtraProjects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Projects />
       <ExtraProjects />
       <Contact />
+      <Footer />
     </div>
   );
 }

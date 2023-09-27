@@ -1,0 +1,28 @@
+footer ul{
+    display: flex;
+    justify-content: center;
+    color: #a8b2d1;
+    margin-bottom: 10px;
+}
+footer ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer ul li:last-of-type{
+    margin-right: 0;
+}
+footer div{
+    padding-bottom: 20px;
+}
+footer div p{
+    color: #a8b2d1;
+    font-size: 12px;
+}
+footer div p span{
+    color:#64ffd9;
+}
+@media screen and (min-width: 768px) {
+    footer ul{
+        display: none;
+    }
+}
