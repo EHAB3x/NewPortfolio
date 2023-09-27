@@ -30,7 +30,7 @@ const Header = () => {
                 </Link>
                 </NavbarItem>
             ))}
-            <a href={resume} target='_blank' className='resume' rel="noreferrer">
+            <a href={"https://www.canva.com/design/DAFvfyjYF1o/eKTEdqMOzNUPVhV_kPl2dQ/view?utm_content=DAFvfyjYF1o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} target='_blank' className='resume' rel="noreferrer">
                 Resume
             </a>
       </NavbarContent>
